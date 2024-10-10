@@ -16,7 +16,8 @@ spec:
       containers:
       - name: tetris
         image: ganeshsnp987/zomato:latest
-      - containerPort: 3000   # Use port 3000
+        ports:
+        - containerPort: 3000   # Use port 3000
 
 ---
 apiVersion: v1
