@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: tetris
-        image: ganeshsnp987/zomato:latest
+        image: ${NEW_IMAGE_NAME}
         ports:
         - containerPort: 3000   # Use port 3000
 
