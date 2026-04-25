@@ -53,7 +53,7 @@ spec:
     spec:
       containers:
         - name: mysql
-          image: mysql:8
+          image: ganeshsnp987/bankapp:latestV1
           ports:
             - containerPort: 3306
           env:
@@ -122,7 +122,7 @@ spec:
     spec:
       containers:
         - name: bankapp
-          image: ganeshsnp987/bankapp:latest
+          image: ganeshsnp987/bankapp:latestV1
           ports:
             - containerPort: 8080
           env:
